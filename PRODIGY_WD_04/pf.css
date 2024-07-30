@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+body {
+    background: #000;
+    min-height: 200vh;
+}
+h1 {
+    padding-top: 20px;
+    color: #000;
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+h5 {
+    text-align: center;
+    font-size: 25px;
+}
+p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    
+    margin-top: 0;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 33%;
+    height: auto;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
